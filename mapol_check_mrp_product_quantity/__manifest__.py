@@ -5,7 +5,7 @@
     'version': '12.0.2.0.0',
     "author" : "Mapol Business Solution Pvt Ltd",
     "website": "http://mapolbs-opensource.com",
-    'images': ['static/description/icon.jpg'],
+    'images': ['static/description/icon.png'],
     'summary': "Module helps to check BOM product quantity before manufacturing",
     'category': 'Manufacturing',
     "depends": [
