@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 {
-    "name": "Bill of Materials Quantity Check",
+    "name": "Bill of Materials Stock Check",
     'version': '12.0.2.0.0',
     "author" : "Mapol Business Solution Pvt Ltd",
-    "website": "http://www.mapolbs.com/",
+    "website": "http://mapolbs-opensource.com",
     'images': ['static/description/icon.png'],
     'summary': "Module helps to check BOM product quantity before manufacturing",
-    "category": "Manufacturing",
+    'category': 'Manufacturing',
     "depends": [
         "mrp",
         "stock",

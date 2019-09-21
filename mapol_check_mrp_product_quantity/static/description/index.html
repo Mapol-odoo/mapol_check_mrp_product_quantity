@@ -3,82 +3,7 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<style>
-	.footer-top .footer-box i {
-    font-size: 36px;
-    position: absolute;
-    top: 25px;
-    left: 56px;
-}
-	.footer-top .row {
-    margin-top: -50px;
-    position: relative;
-    z-index: 1;
-}
-	.footer-top [class*=col]:nth-child(2):after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -50px;
-    border-style: solid;
-    border-color: transparent transparent transparent #2675b3;
-    border-width: 50px 0px 50px 50px;
-    z-index: 1;
-}
-	.footer-top [class*=col]:nth-child(1):after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -50px;
-    border-style: solid;
-    border-color: transparent transparent transparent #28467d;
-    border-width: 50px 0px 50px 50px;
-    z-index: 1;
-}
-	.footer-top [class*=col]:nth-child(3) {
-    background: #4396d8;
-}
-	.footer-top [class*=col]:nth-child(2) {
-    background: #2675b3;
-}
-	.footer-top {
-    position: relative;
-    width: 100%;
-    z-index: 2;
-}
-   .footer-top [class*=col] {
-    background: #28467d;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 16px 0;
-    position: relative;
-}
-.footer-top .footer-box-content {
-    padding-left: 25px;
-}
-a, a:hover, a.active, a:active, a:visited, a:focus {
-    color: #fefefe;
-    text-decoration: none;
-}
-.footer-top [class*=col] i, .footer-top [class*=col] h3, .footer-top [class*=col] p {
-    color: #fff;
-}
-.footer-box-content h3 {
-    font-size: 17px;
-}
-.footer-box-content p {
-    font-size: 17px;
-}
-
-</style>
+	
 	</head>
 	<body>
 	
@@ -87,9 +12,9 @@ a, a:hover, a.active, a:active, a:visited, a:focus {
 <section class="oe_container lead title_box"  style="border: 5px solid #7c7bad;border-radius: 4px;box-shadow: 5px 10px 18px 6px#666666;text-align: center;">
     <div class="oe_row oe_spaced" style="max-width: 100%;">
 				<div class="oe_span12">
-					<h3 class="" style="/* color: #091383; *//* font-weight: initial; */margin: auto;background-color: #964b78;padding: 17px;color: white;width: 925px;">Bill of Material quantity check</h3>
+					<h3 class="" style="/* color: #091383; *//* font-weight: initial; */margin: auto;background-color: #964b78;padding: 17px;color: white;width: 925px;">Bill of Material stock check</h3>
 					<p class="oe_mt32 text-center">
-			            This module is used to check the quantity availability status for each bill of material before manufacturing it.
+			            This module is used to check the stock availability status for each bill of material before manufacturing it.
 			        </p>
 			        <hr style="width: 60rem;height: 1px;background: -webkit-gradient(linear, 0 0, 100% 0, from(#d58383), to(#5d4da6), color-stop(50%, #0b1255));"></hr>
 				</div>
@@ -110,7 +35,7 @@ a, a:hover, a.active, a:active, a:visited, a:focus {
 				<div class="oe_row" style="margin-bottom: 70px;">
 					<h3 class="oe_slogan" style="color: #091383;font-weight: initial ;margin: auto;">Step 2:
 					</h3>
-					<p class="oe_slogan" style="margin: 10px;"> A quantity status popup is raised if it is available.Click "Done" to create a manufacturing order.
+					<p class="oe_slogan" style="margin: 10px;"> A stock status popup is raised if it is available.Click "Done" to create a manufacturing order.
  					</p>
 					<br/>
 					<img class="img-responsive" style="display: block;width: 95%;margin: auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="shot2.png"/>
@@ -200,7 +125,7 @@ a, a:hover, a.active, a:active, a:visited, a:focus {
                      <i class="fa fa-map-marker" aria-hidden="true"></i>
                      <div class="footer-box-content">
                         <h3>Mapol Group</h3>
-                        <p>Teynampet Chennai-18</p>
+                        <p>Chennai-18</p>
                      </div>
                   </div>
                   <!-- Box 1 end-->
@@ -225,7 +150,82 @@ a, a:hover, a.active, a:active, a:visited, a:focus {
             </div>
             <!-- Container end-->
          </div>
-				
+			<style>
+	.footer-top .footer-box i {
+    font-size: 36px;
+    position: absolute;
+    top: 25px;
+    left: 56px;
+}
+	.footer-top .row {
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+}
+	.footer-top [class*=col]:nth-child(2):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50px;
+    border-style: solid;
+    border-color: transparent transparent transparent #2675b3;
+    border-width: 50px 0px 50px 50px;
+    z-index: 1;
+}
+	.footer-top [class*=col]:nth-child(1):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50px;
+    border-style: solid;
+    border-color: transparent transparent transparent #28467d;
+    border-width: 50px 0px 50px 50px;
+    z-index: 1;
+}
+	.footer-top [class*=col]:nth-child(3) {
+    background: #4396d8;
+}
+	.footer-top [class*=col]:nth-child(2) {
+    background: #2675b3;
+}
+	.footer-top {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+   .footer-top [class*=col] {
+    background: #28467d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 16px 0;
+    position: relative;
+}
+.footer-top .footer-box-content {
+    padding-left: 25px;
+}
+a, a:hover, a.active, a:active, a:visited, a:focus {
+    color: #fefefe;
+    text-decoration: none;
+}
+.footer-top [class*=col] i, .footer-top [class*=col] h3, .footer-top [class*=col] p {
+    color: #fff;
+}
+.footer-box-content h3 {
+    font-size: 17px;
+}
+.footer-box-content p {
+    font-size: 17px;
+}
+
+</style>	
 			
 			<hr style="width: 80rem;"></hr>
 			
