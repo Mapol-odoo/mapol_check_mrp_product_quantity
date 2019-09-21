@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    "name": "Bill of materials quantity check",
+    "name": "Bill of Materials Quantity Check",
     'version': '12.0.2.0.0',
     "author" : "Mapol Business Solution Pvt Ltd",
     "website": "http://www.mapolbs.com/",
