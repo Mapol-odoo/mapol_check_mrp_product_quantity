@@ -6,7 +6,7 @@
     "author" : "Mapol Business Solutions Pvt Ltd",
     "website": "http://mapolbs-opensource.com",
     'images': ['static/description/icon.png'],
-    'summary': "Module helps to check BOM product quantity before manufacturing",
+    'summary': "Module helps us to check BOM product quantity before manufacturing",
     'category': 'Manufacturing',
     "depends": [
         "mrp",
